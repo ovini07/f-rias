@@ -1,0 +1,19 @@
+package repeticao;
+
+import java.util.Scanner;
+
+public class ativuidade3B {
+
+	public static void main(String[] args) {
+		Scanner ler = new Scanner(System.in);
+        String nome;
+        int n = 1; 
+        System.out.println("Informe seu nome: ");
+        nome = ler.next();
+        while (n <= 10) {
+            System.out.println("O seu nome é: " + nome);
+            n++;
+        }
+        ler.close();
+	}
+}
